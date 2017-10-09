@@ -6,122 +6,165 @@
  * Class: Scotland 2017
  */
 
-html,
-body {
-	font-family: "Source Sans Pro",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-}
-
-.site-footer {
-	margin-top: 4em;
-}
-
-.site-footer p {
-	border-top: 1px solid #dccdc6;
-	padding-top: 2em;
-	padding-bottom: 2em;
-}
-
-.navbar-brand > img {
-	max-height: 40px;
-	width: auto;
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: #292b2c;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-/* Buttons */
-.btn {
-	border-radius: 0.15em;
-}
-
-/* Alert */
-.alert {
-	position: relative;
-	margin-top: 2em;
-	margin-bottom: 3em;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	border: 1px solid #dccdc6;
-	border-radius: 0;
-	font-size: 0.85rem;
-	line-height: 1.3em;
-	background: transparent;
-	color: #292b2c;
-}
-
-.alert:before {
-	content: '';
-	position: absolute;
-	left: -1px;
-	top: 0;
-	height: 100%;
-	width: 1px;
-	background: #ce5f31;
-}
-
-/* Jumbotron */
-.jumbotron {
-	border-radius: 0;
-}
-
-/* Headings */
-.heading-underline {
-	position: relative;
-	margin-bottom: 2em;
-	padding-bottom: 0.5em;
-	border-bottom: 1px solid #dccdc6;
-	font-size: 1rem;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.heading-underline:before {
-	content: '';
-	position: absolute;
-	bottom: -1px;
-	left: 0;
-	width: 25%;
-	height: 1px;
-	max-width: 100px;
-	background: #ce5f31;
-}
-
-/* Article */
-.article {
-	margin-bottom: 2em;
-}
-
-.article-title {
-	margin-bottom: 0.5em;
-	font-weight: 700;
-}
-
-.article-read-more a {
-	font-size: 0.85em;
-	font-weight: 700;
-	text-decoration: uppercase;
-}
-
-.article-read-more a:hover,
-.article-read-more a:focus {
-	text-decoration: none;
-}
-
-.article-read-more .fa {
-	margin-right: 0.5em;
-	color: #ce5f31;
-}
-
-.article-read-more:last-child {
-	margin-bottom: 0;
-}
-
-@media screen and (min-width: 992px) {
-
-	.navbar-brand > img {
-	   max-height: 80px;
-	}
-}
+ html,
+ body {
+	 font-family: "Source Sans Pro",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+ }
+ 
+ .site-footer {
+	 margin-top: 4em;
+ }
+ .big-btn  {
+   background-color:#B3541E;
+   color: white;
+ }
+ .site-footer p {
+	 border-top: 1px solid #E96C29;
+	 padding-top: 2em;
+	 padding-bottom: 2em;
+ }
+ .ml-auto{
+   background-color: rgba(224, 106, 26, 0.97);
+   color: white;
+ }
+ .navbar-brand > img {
+	 max-height: 40px;
+	 width: auto;
+ }
+ 
+ .navbar-light .navbar-nav .nav-link {
+	 color: #292b2c;
+	 font-weight: 600;
+	 text-transform: uppercase;
+ }
+ 
+ /* Buttons */
+ .btn {
+	 border-radius: 0.15em;
+ }
+ /* Alert */
+ .alert {
+	 position: relative;
+	 margin-top: 2em;
+	 margin-bottom: 3em;
+	 padding-top: 1.5em;
+	 padding-bottom: 1.5em;
+	 border: 1px solid #dccdc6;
+	 border-radius: 0;
+	 font-size: 0.85rem;
+	 line-height: 1.3em;
+	 background: transparent;
+	 color: #292b2c;
+ }
+ 
+ .alert:before {
+	 content: '';
+	 position: absolute;
+	 left: -1px;
+	 top: 0;
+	 height: 100%;
+	 width: 1px;
+	 background: #ce5f31;
+ }
+ 
+ /* Jumbotron */
+ .jumbotron {
+	 border-radius: 0;
+ }
+ 
+ /* Headings */
+ .heading-underline {
+	 position: relative;
+	 margin-bottom: 2em;
+	 padding-bottom: 0.5em;
+	 border-bottom: 1px solid #dccdc6;
+	 font-size: 1rem;
+	 font-weight: 600;
+	 text-transform: uppercase;
+ }
+ 
+ .heading-underline:before {
+	 content: '';
+	 position: absolute;
+	 bottom: -1px;
+	 left: 0;
+	 width: 25%;
+	 height: 1px;
+	 max-width: 100px;
+	 background: #ce5f31;
+ }
+ .display-3 {
+	 color: white;
+ }
+ 
+ .lead {
+	 color: white;
+ }
+ /* Article */
+ .article {
+	 margin-bottom: 2em;
+ }
+ .articles-row{
+	display: flex;
+	 width: 100%; 
+	 }
+ .aa {
+	 border: 1px solid;
+	 border-color: rgba(238, 238, 238, 0.77);
+	 padding: 15px;
+	 margin-right: 17px;
+ }
+	 .a {
+	 background-color: #eeeeee;
+ }
+ .main-part{ 
+	 padding: 70px;
+	 margin-bottom: 42px;
+	 }
+ .article-title {
+	 margin-bottom: 0.5em;
+	 font-weight: 700;
+ }
+ .three-articles{
+	 display: inline-block;
+ }
+ .img-fluid{
+	 float: left;
+	 width: 100px;
+ }
+ .detail, .article-title--sidebar{
+	 float: right;
+	 width: 70%;
+ }
+ .article-read-more a {
+	 font-size: 0.85em;
+	 font-weight: 700;
+	 text-decoration: uppercase;
+ }
+ 
+ .article-read-more a:hover,
+ .article-read-more a:focus {
+	 text-decoration: none;
+ }
+ 
+ .article-read-more .fa {
+	 margin-right: 0.5em;
+	 color: #ce5f31;
+ }
+ 
+ .article-read-more:last-child {
+	 margin-bottom: 0;
+ }
+ 
+ @media screen and (max-width: 400px) {
+	 .display-3 {
+		 font-size: 30px; 
+	 }
+	 .navbar-brand > img {
+		max-height: 80px;
+	 }
+	 .btn-lrg {
+	 width: 100px;
+	 font-size: 10px;
+	 }
+ }
